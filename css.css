@@ -1,0 +1,70 @@
+@font-face{
+font-family: pt sans;
+src: url(Ptsans-bold.ttf);
+}
+@font-face{
+font-family: merriweather;
+src: url(merriweather-regular.ttf);
+}
+body{
+top-margin: 0 ;
+right-margin: 0 ; 
+padding: 0 0 0 0 ;
+}
+.sidenav {
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 50px;
+padding-left: 50px;
+}
+
+.sidenav a {
+  padding: 12px 8px 12px 0px;
+  text-decoration: none;
+  font-size: 16px;
+font-family: arial;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #FFFFC5;
+}
+
+.main {
+  margin-left: 260px; 
+  margin-top: 20px; 
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+h2{
+font-family: pt sans;
+font-size: 24;
+}
+p{
+font-family: merriweather;
+font-size: 15;
+line-height: 1.5;
+padding-right: 70;
+padding-left: 400;
+}
+
+#section2{
+background-color: #FFFFC5;
+}
+
+h3{
+font-family: merriweather;
+font-size: 35;
+}
